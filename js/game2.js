@@ -19,7 +19,6 @@ var wheel = document.getElementById('wheel'); // 转盘
     // 计算归着，每次抽奖最终rotateZ值 + 相应的奖品值位置 = (rotateZCount + rotateZPosition[0]) 等于一等奖
     var rotateZPosition = [20, 158, 200, 112, 68];
 
-
     const prize = [                 //  奖品设置 传入一个奖项，0，1，2，3，4， 分别是12345等奖
    {
         title: '手气不错哟～恭喜获得：',
